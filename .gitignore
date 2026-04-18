@@ -1,0 +1,18 @@
+# Ignore everything as a safety measure
+/*
+
+# -----------------------------------------------------------------------------
+# WHITELIST: Allow ONLY the landing page and policy files
+# -----------------------------------------------------------------------------
+!index.html
+!politica-privacidad.html
+!assets/
+!assets/**
+!.gitignore
+
+# Re-ignore common web clutter just in case
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/
